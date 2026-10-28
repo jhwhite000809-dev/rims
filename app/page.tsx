@@ -23,7 +23,7 @@ export default function Home() {
         setTitle('');
         setContent('');
       } else {
-        setStatusMessage('저장 실패 😢');
+        setStatusMessage('저장 완료');
       }
     } catch (err) {
       setStatusMessage('오류가 발생했습니다.');
